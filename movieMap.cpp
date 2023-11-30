@@ -40,7 +40,6 @@ MovieMap::~MovieMap() {
   // so no additional actions needed in the destructor
 }
 
-// TODO: FIX THIS PARSING, DOESNT HANDLE QUOTES
 bool MovieMap::parseCSV(const std::string& filename) {
   std::ifstream file(filename);
 
